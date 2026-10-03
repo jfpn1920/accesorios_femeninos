@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #faf6f8;
+    color: #40343a;
+}
+/*---------------------------------*/
+/*--|estilo_accesorios_femeninos|--*/
+/*---------------------------------*/
+.encabezado {
+    background: #3f3038;
+    color: white;
+    padding: 35px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icono_encabezado {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #d48aa5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.contenido_encabezado h1 {
+    font-size: 31px;
+    margin: 6px 0;
+}
+.contenido_encabezado p {
+    color: #eadde2;
+}
+.etiqueta {
+    color: #e9aeca;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+/*--------------------------------------------*/
+/*--|estilo_contenido_accesorios_destacados|--*/
+/*--------------------------------------------*/
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+.introduccion {
+    background: white;
+    border-left: 6px solid #d48aa5;
+    padding: 22px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px #0000000b;
+}
+.icono_intro {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    background: #f7e4ec;
+    color: #b75f83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.introduccion h2 {
+    margin-bottom: 5px;
+}
+.introduccion p {
+    color: #806d75;
+}
+/*---------------------------------------*/
+/*--|estilo_contenedor_de_las_tarjetas|--*/
+/*---------------------------------------*/
+.coleccion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+.accesorio {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    position: relative;
+    box-shadow: 0 6px 20px #0000000c;
+    border-top: 4px solid #d48aa5;
+}
+.numero {
+    position: absolute;
+    right: 22px;
+    top: 20px;
+    color: #d8c4cd;
+    font-size: 25px;
+    font-weight: bold;
+}
+.icono_accesorio {
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    font-size: 27px;
+}
+.collar {
+    background: #f8e7ed;
+    color: #b75f83;
+}
+.pulsera {
+    background: #eee5f5;
+    color: #79539a;
+}
+.aretes {
+    background: #f8edda;
+    color: #b47b2d;
+}
+.bolso {
+    background: #e4f0ed;
+    color: #4d8475;
+}
+.accesorio label {
+    display: block;
+    margin: 12px 0 6px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #66545c;
+}
+.accesorio input, .accesorio textarea {
+    width: 100%;
+    border: 1px solid #e2d6dc;
+    border-radius: 8px;
+    padding: 11px;
+    outline: none;
+    font-family: inherit;
+    background: #fffdfd;
+}
+.accesorio textarea {
+    height: 80px;
+    resize: vertical;
+}
+.accesorio input:focus, .accesorio textarea:focus {
+    border-color: #d48aa5;
+}
+.acciones {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+}
+.boton {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.guardar {
+    background: #d48aa5;
+    color: white;
+}
+.guardar:hover {
+    background: #bd6f8d;
+}
+.restaurar {
+    background: #f0e8ec;
+    color: #594750;
+}
+.mensaje {
+    min-height: 18px;
+    margin-top: 10px;
+    color: #4d8475;
+    font-size: 13px;
+}
+/*------------------------------------------*/
+/*--|estilo_restablecer_toda_la_coleccion|--*/
+/*------------------------------------------*/
+.seccion_reset {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.eliminar {
+    background: #b94255;
+    color: white;
+}
+.eliminar:hover {
+    background: #963344;
+}

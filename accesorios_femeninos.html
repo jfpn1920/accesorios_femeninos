@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accesorios femeninos</title>
+    <link rel="stylesheet" href="accesorios_femeninos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="accesorios_femeninos.js" defer></script>
+</head>
+<body>
+    <!----------------------------------------->
+    <!--|estructuracion_accesorios_femeninos|-->
+    <!----------------------------------------->
+    <header class="encabezado">
+        <div class="icono_encabezado">
+            <i class="fa-solid fa-gem"></i>
+        </div>
+        <div class="contenido_encabezado">
+            <span class="etiqueta">COLECCIÓN ESPECIAL</span>
+            <h1>Accesorios Femeninos</h1>
+            <p>Descubre una selección de accesorios para cada ocasión.</p>
+        </div>
+    </header>
+    <!---------------------------------------------------->
+    <!--|estructuracion_contenido_accesorios_destacados|-->
+    <!---------------------------------------------------->
+    <main class="contenedor">
+        <section class="introduccion">
+            <div class="icono_intro">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <div>
+                <h2>Accesorios destacados</h2>
+                <p>Personaliza la información de cada accesorio y guarda los cambios en tu navegador.</p>
+            </div>
+        </section>
+        <!-------------------------------->
+        <!--|contenedor_de_las_tarjetas|-->
+        <!-------------------------------->
+        <section class="coleccion" id="coleccion">
+            <article class="accesorio" data-id="1">
+                <div class="icono_accesorio collar">
+                    <i class="fa-solid fa-link"></i>
+                </div>
+                <span class="numero">01</span>
+                <label>Nombre</label>
+                <input type="text" class="campo_nombre">
+                <label>Categoría</label>
+                <input type="text" class="campo_categoria">
+                <label>Descripción</label>
+                <textarea class="campo_descripcion"></textarea>
+                <label>Precio</label>
+                <input type="text" class="campo_precio">
+                <div class="acciones">
+                    <button class="boton guardar"><i class="fa-solid fa-floppy-disk"></i>Guardar</button>
+                    <button class="boton restaurar"><i class="fa-solid fa-rotate-left"></i>Restaurar</button>
+                </div>
+                <p class="mensaje"></p>
+            </article>
+            <article class="accesorio" data-id="2">
+                <div class="icono_accesorio pulsera">
+                    <i class="fa-solid fa-circle-notch"></i>
+                </div>
+                <span class="numero">02</span>
+                <label>Nombre</label>
+                <input type="text" class="campo_nombre">
+                <label>Categoría</label>
+                <input type="text" class="campo_categoria">
+                <label>Descripción</label>
+                <textarea class="campo_descripcion"></textarea>
+                <label>Precio</label>
+                <input type="text" class="campo_precio">
+                <div class="acciones">
+                    <button class="boton guardar"><i class="fa-solid fa-floppy-disk"></i>Guardar</button>
+                    <button class="boton restaurar"><i class="fa-solid fa-rotate-left"></i>Restaurar</button>
+                </div>
+                <p class="mensaje"></p>
+            </article>
+            <article class="accesorio" data-id="3">
+                <div class="icono_accesorio aretes">
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <span class="numero">03</span>
+                <label>Nombre</label>
+                <input type="text" class="campo_nombre">
+                <label>Categoría</label>
+                <input type="text" class="campo_categoria">
+                <label>Descripción</label>
+                <textarea class="campo_descripcion"></textarea>
+                <label>Precio</label>
+                <input type="text" class="campo_precio">
+                <div class="acciones">
+                    <button class="boton guardar"><i class="fa-solid fa-floppy-disk"></i>Guardar</button>
+                    <button class="boton restaurar"><i class="fa-solid fa-rotate-left"></i>Restaurar</button>
+                </div>
+                <p class="mensaje"></p>
+            </article>
+            <article class="accesorio" data-id="4">
+                <div class="icono_accesorio bolso">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <span class="numero">04</span>
+                <label>Nombre</label>
+                <input type="text" class="campo_nombre">
+                <label>Categoría</label>
+                <input type="text" class="campo_categoria">
+                <label>Descripción</label>
+                <textarea class="campo_descripcion"></textarea>
+                <label>Precio</label>
+                <input type="text" class="campo_precio">
+                <div class="acciones">
+                    <button class="boton guardar"><i class="fa-solid fa-floppy-disk"></i>Guardar</button>
+                    <button class="boton restaurar"><i class="fa-solid fa-rotate-left"></i>Restaurar</button>
+                </div>
+                <p class="mensaje"></p>
+            </article>
+        </section>
+        <!----------------------------------->
+        <!--|restablecer_toda_la_coleccion|-->
+        <!----------------------------------->
+        <section class="seccion_reset">
+            <button class="boton eliminar" id="restablecerTodos"><i class="fa-solid fa-trash"></i>Restablecer todos</button>
+        </section>
+    </main>
+</body>
+</html>
